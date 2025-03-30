@@ -1,0 +1,42 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+
+}
+
+.card {
+    display: flex;
+    gap: 1rem;
+    width: 45%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 5px 10px 10px  rgb(100, 100, 100);
+}
+button{
+ float: right;
+ background-color: rgb(0, 54, 0);
+ border-radius: 50px;
+ border: none;
+ padding: 10px 15px;
+ color: antiquewhite;
+}
+.quality {
+    float: right;
+    background-color: rgb(0, 54, 0);
+    border-radius: 50px;
+    border: none;
+    padding: 10px 15px;
+    color: antiquewhite;
+   position: absolute;
+   bottom: 20px;
+   right: 20px;
+}
